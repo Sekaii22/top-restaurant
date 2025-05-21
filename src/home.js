@@ -46,7 +46,7 @@ function homePage() {
     p1.textContent = "Here at our café, we're passionate about crafting exceptional coffee that speaks for itself. Nestled in the heart of the city, our café has become a favorite destination for coffee lovers who appreciate bold flavor, perfect balance, and uncompromising quality.";
     p2.textContent = "We believe great coffee should be more than just a drink—it should be an experience. That's why we've dedicated ourselves to perfecting every cup, using only the finest ethically sourced beans, roasted in small batches for bold flavor and smooth complexity. Recognized as one of the best coffee spots in the city, we invite you to taste the difference.";
     p3.textContent = "But the experience doesn't stop with the coffee.";
-    p4.textContent = "Our dessert menu is crafted to complement our brews, offering the perfect balance of sweetness and richness. From flaky, butter-layered croissants to decadent chocolate tortes, tangy lemon bars, and our signature espresso-soaked tiramisu, every bite is made in-house with the same care and quality that goes into our coffee. Whether you're after a quick pick-me-up or an indulgent treat, our coffee and dessert pairings are made to satisfy.";
+    p4.textContent = "Our dessert menu is crafted to complement our brews, offering the perfect balance of sweetness and richness. From flaky, butter-layered croissants to decadent chocolate cakes, tangy lemon bars, and our signature espresso-soaked tiramisu, every bite is made in-house with the same care and quality that goes into our coffee. Whether you're after a quick pick-me-up or an indulgent treat, our coffee and dessert pairings are made to satisfy.";
 
     img1.src = lemonBarImage;
     img1.alt = "Lemon bar image";
