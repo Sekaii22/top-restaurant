@@ -132,38 +132,38 @@ p {
     padding: 5px 0;
 }
 
-.food-item {
+.menu-item {
     display: flex;
     justify-content: center;
     gap: 16px;
     margin-bottom: 20px;
 }
 
-.food-img-container {
+.menu-img-container {
     width: 200px;
     height: 200px;
 }
 
-.food-img-container img {
+.menu-img-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.food-text-container {
+.menu-text-container {
     flex: 1;
     max-width: 66ch;
     padding: 10px;
 }
 
-.food-name, 
+.item-name, 
 .price {
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-.food-describe {
+.item-describe {
     font-size: 1rem;
     margin-bottom: 0;
 }

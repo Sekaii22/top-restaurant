@@ -1,19 +1,19 @@
 import lemonBarImage from "./assets/dana-devolk-lemon-bar-unsplash.jpg";
-import chocoCakeImage from "./assets/eiliv-aceron-choco-cake-unsplash.jpg"
-import croissantImage from "./assets/hannah-fleming-hlll-croissants-unsplash.jpg"
-import tiramisuImage from "./assets/karolina-kolodziejczak-tiramisu-unsplash.jpg"
+import chocoCakeImage from "./assets/eiliv-aceron-choco-cake-unsplash.jpg";
+import tiramisuImage from "./assets/karolina-kolodziejczak-tiramisu-unsplash.jpg";
+import croissantImage from "./assets/hannah-fleming-hlll-croissants-unsplash.jpg";
 
 function homePage() {
     const contentDiv = document.querySelector(".content");
 
     // containers
-    const homepageDiv = document.createElement("div");
+    const homePageDiv = document.createElement("div");
     const mainContentDiv = document.createElement("div");
 
-    homepageDiv.classList.add("home-page");
+    homePageDiv.classList.add("home-page");
     mainContentDiv.classList.add("main-content");
-    contentDiv.appendChild(homepageDiv);
-    homepageDiv.appendChild(mainContentDiv);
+    contentDiv.appendChild(homePageDiv);
+    homePageDiv.appendChild(mainContentDiv);
 
     // content
     const headline = document.createElement("h2");
