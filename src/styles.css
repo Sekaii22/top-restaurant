@@ -170,11 +170,6 @@ p {
     font-weight: bold;
 }
 
-.item-describe {
-    font-size: 1rem;
-    margin-bottom: 0;
-}
-
 /* Contact us page */
 .contact-page {
     background-image: url("assets/lee-campbell-barista-unsplash.jpg");
