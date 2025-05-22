@@ -40,6 +40,7 @@ nav button {
     border-radius: 5px;
     background-color: whitesmoke;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 nav button:hover {
@@ -53,7 +54,7 @@ nav button:active {
 .active-tab-btn {
     pointer-events: none;
     background-color: burlywood;
-    outline: 3px solid white;
+    outline: 3px solid hsl(from burlywood h s 30%);
 }
 
 /* Content */ 
@@ -228,6 +229,7 @@ th {
     border: none;
     border-radius: 8px;
     color: whitesmoke;
+    cursor: pointer;
 }
 
 #submit-btn:hover {

@@ -1,6 +1,7 @@
 import "./styles.css";
 import { homePage } from "./home";
 import { menuPage } from "./menu";
+import { contactUsPage } from "./contact-us";
 
 const contentDiv = document.querySelector(".content");
 const homeBtn = document.querySelector("#home-btn");
@@ -36,9 +37,9 @@ contactUsBtn.addEventListener("click", (e) => {
     let child = contentDiv.firstElementChild;
     if (child !== null)
         contentDiv.removeChild(child);
-    // aboutPage();
+    contactUsPage();
     disableActiveTabBtn(e.currentTarget);
 });
 
-// homePage();
-// disableActiveTabBtn(homeBtn);
+homePage();
+disableActiveTabBtn(homeBtn);
