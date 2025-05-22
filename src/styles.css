@@ -50,6 +50,12 @@ nav button:active {
     background-color: hsl(from whitesmoke h s 60%);
 }
 
+.active-tab-btn {
+    pointer-events: none;
+    background-color: burlywood;
+    outline: 3px solid white;
+}
+
 /* Content */ 
 /* Home page */
 .content > div {
