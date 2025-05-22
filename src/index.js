@@ -5,40 +5,40 @@ import { menuPage } from "./menu";
 const contentDiv = document.querySelector(".content");
 const homeBtn = document.querySelector("#home-btn");
 const menuBtn = document.querySelector("#menu-btn");
-const aboutBtn = document.querySelector("#about-btn");
+const contactUsBtn = document.querySelector("#contact-btn");
 
 function disableActiveTabBtn(btn) {
     // reset
     homeBtn.classList.remove("active-tab-btn");
     menuBtn.classList.remove("active-tab-btn");
-    aboutBtn.classList.remove("active-tab-btn");
+    contactUsBtn.classList.remove("active-tab-btn");
 
     btn.classList.add("active-tab-btn");
 }
 
 homeBtn.addEventListener("click", (e) => {
-    let child = contentDiv.firstChild;
+    let child = contentDiv.firstElementChild;
     if (child !== null)
-        contentDiv.removeChild(contentDiv.firstChild);
+        contentDiv.removeChild(child);
     homePage();
     disableActiveTabBtn(e.currentTarget);
 });
 
 menuBtn.addEventListener("click", (e) => {
-    let child = contentDiv.firstChild;
+    let child = contentDiv.firstElementChild;
     if (child !== null)
-        contentDiv.removeChild(contentDiv.firstChild);
+        contentDiv.removeChild(child);
     menuPage();
     disableActiveTabBtn(e.currentTarget);
 });
 
-aboutBtn.addEventListener("click", (e) => {
-    let child = contentDiv.firstChild;
+contactUsBtn.addEventListener("click", (e) => {
+    let child = contentDiv.firstElementChild;
     if (child !== null)
-        contentDiv.removeChild(contentDiv.firstChild);
+        contentDiv.removeChild(child);
     // aboutPage();
     disableActiveTabBtn(e.currentTarget);
 });
 
-homePage();
-disableActiveTabBtn(homeBtn);
+// homePage();
+// disableActiveTabBtn(homeBtn);
